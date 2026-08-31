@@ -5,14 +5,12 @@ export default function Footer() {
         <div className="contact-row">
           <div>
             <h2>Let's talk</h2>
-            {/* [EDIT] adjust this line if you want */}
             <p className="contact-lede">
-              Open to frontend internships — happy to walk through any of this
+              Open to frontend internships - happy to walk through any of this
               in more depth.
             </p>
           </div>
           <div className="contact-links">
-            {/* [EDIT] your real links */}
             <a href="mailto:you@example.com">email</a>
             <a
               href="https://github.com/yourname"
