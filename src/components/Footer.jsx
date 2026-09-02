@@ -11,16 +11,16 @@ export default function Footer() {
             </p>
           </div>
           <div className="contact-links">
-            <a href="mailto:you@example.com">email</a>
+            <a href="mailto:anderhagen.melvin@gmail.com">email</a>
             <a
-              href="https://github.com/yourname"
+              href="https://github.com/MelvinAnderhagen"
               target="_blank"
               rel="noopener noreferrer"
             >
               github
             </a>
             <a
-              href="https://linkedin.com/in/yourname"
+              href="https://www.linkedin.com/in/melvin-anderhagen-2195131b3/"
               target="_blank"
               rel="noopener noreferrer"
             >
