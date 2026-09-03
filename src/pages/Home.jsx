@@ -26,9 +26,7 @@ export default function Home() {
           <Terminal />
           <div className="hero-text">
             <p className="eyebrow">Frontend Developer</p>
-            {/* [EDIT] your name */}
             <h1>Melvin Anderhagen</h1>
-            {/* [EDIT] one-line pitch */}
             <p className="lede">
               I spent two years shipping backend systems in C# and .NET — now
               I'm building modern frontend apps in React and TypeScript. I'm
@@ -38,7 +36,6 @@ export default function Home() {
               <a className="btn btn-primary" href="#projects">
                 View projects
               </a>
-              {/* [EDIT] link to your actual CV file, e.g. /cv.pdf in /public */}
               <a
                 className="btn btn-secondary"
                 href="/CV.pdf"
@@ -58,7 +55,6 @@ export default function Home() {
             <p className="section-num">// about</p>
             <h2>From compiling to composing UI</h2>
           </div>
-          {/* [EDIT] rewrite in your own voice */}
           <p className="about-text">
             I graduated as a .NET-developer where I spent two years bulding
             backend systems in C# and .NET. During my earlier internship, I had
@@ -82,7 +78,6 @@ export default function Home() {
             <div className="skill-card">
               <h3>Frontend</h3>
               <div className="tag-row">
-                {/* [EDIT] adjust to your real stack */}
                 {frontEndSkills.map((t) => (
                   <span className="tag" key={t}>
                     {t}
